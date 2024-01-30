@@ -589,12 +589,15 @@ color: var(--NAVY-BLUE, #2E2F42);
         margin-bottom: 16px;
 }
 
+ .footer-container{
+    display: flex;
+}
+
 .footer-box {
     margin-right: 120px;
 }
 
 .footer-soc {
-    margin-left: auto;
     font-style: normal;
    
 }
