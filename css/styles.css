@@ -144,6 +144,7 @@ color: #2e2f42;
     border-radius: 2px;
     height: 4px;
     width: 100%;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -629,7 +630,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .footer-soc-list {
     display: flex;
     gap: 16px;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 .footer-soc-item {
