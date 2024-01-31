@@ -63,6 +63,11 @@ address {
 /*------------------HEADER----------*/
 .header {
     border-bottom: 1px solid  #E7E9FC;
+    background: #FFF;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -190,6 +195,7 @@ color: #2e2f42;
         /*------------------HERO----------*/
 
 .hero {
+    min-width: 1440px;
     background-color: #2E2F42;
         padding: 188px 0;
         background-image: linear-gradient(
@@ -241,9 +247,7 @@ color: var(--WHITE, #FFF);
         display: block;
         min-width: 169px;
         height: 56px;
-        
-       
-       
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .hero-buy-btn:hover,
@@ -270,6 +274,7 @@ color: var(--WHITE, #FFF);
 
    .features-item {
     width: calc((100% - 72px) / 4);
+    
 
    }
 
@@ -349,6 +354,11 @@ color: var(--WHITE, #FFF);
     background-color: #FFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
    
 
    }
@@ -467,7 +477,7 @@ color: var(--WHITE, #FFF);
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-   transition: box-shadov 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
             
    
