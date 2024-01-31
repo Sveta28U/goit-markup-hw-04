@@ -144,7 +144,7 @@ color: #2e2f42;
     border-radius: 2px;
     height: 4px;
     width: 100%;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
@@ -204,7 +204,7 @@ color: #2e2f42;
             rgba(46, 47, 66, 0.70),
             rgba(46, 47, 66, 0.70)
         ),
-        url(../images/people-office\ 1\ .jpg);
+        url(../images/people-office.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -329,7 +329,6 @@ color: var(--WHITE, #FFF);
     align-items: center;
     gap: 8px;
    
-
    }
 
    .team-title {
@@ -604,6 +603,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 
  .footer-container{
     display: flex;
+    align-items: baseline;
 }
 
 .footer-box {
@@ -630,7 +630,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .footer-soc-list {
     display: flex;
     gap: 16px;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
 }
 .footer-soc-item {
